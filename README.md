@@ -5,7 +5,7 @@ This is the sample repo to repro the Tailwind breakpoints not working issue on C
 
 1. clone the repo and `yarn install` dependencies
 2. `yarn start` to start the webpack devserver
-3. Drag the browser border to make the width less than 640px and you can see the **break points `sm` not working in the `Body component`**
+3. Drag the browser border to make the window width less than 640px and you can see the **break points `sm` not working in the [Body component](https://github.com/wonderfulxue/tailwind-jit-bug/blob/main/src/components/Body.jsx)**
 
 ### Expected behavior
 

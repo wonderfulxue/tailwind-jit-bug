@@ -1,5 +1,5 @@
 module.exports = {
-  // mode: "jit", // When jit mode is on, the responsive breakpoints not workiing
+  mode: "jit", // When jit mode is on, the responsive breakpoints not workiing
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
